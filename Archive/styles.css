@@ -1,0 +1,27 @@
+.menu-bar ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar li {
+    display: inline-block;
+    text-align: center;
+}
+
+.center {
+    color: black;
+    text-align: center;
+}
+
+.white {
+    color: white;
+    outline-width: 1;
+    outline-color: white;
+    outline-style: solid;
+}
+
+.background {
+    background-color: #404258
+}
