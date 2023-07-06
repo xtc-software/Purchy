@@ -55,6 +55,18 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+#loginBtn {
+  
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

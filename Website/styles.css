@@ -1,0 +1,34 @@
+.navbar #burger-menu {
+    padding-right: 125px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    color: #CAE5D8;
+    text-align: center;
+}
+
+.navbar ul li i {
+    padding-right: 5px;
+}
+
+.navbar ul li a {
+    color: #CAE5D8;
+    text-decoration: none;
+    padding: 25px;
+    text-align: center;
+}
+
+body {
+    background-color: #27202D;
+}
