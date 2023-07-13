@@ -40,3 +40,43 @@
 .read-the-docs {
   color: #888;
 }
+
+.react-icons bi {
+    font-size: 1.7rem;
+}
+
+.notifications {
+    position: fixed;
+    top: 2.5%;
+    right: 3.5%;
+    font-size: 200%
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.icon {
+    font-size: 175%;
+}
+
+.text {
+    font-size: 150%;
+    padding-left: 5%;
+    margin-bottom: 10%;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar li {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    transition: all 0.3s ease;
+    text-align: left;
+    left: 0;
+}
