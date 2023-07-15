@@ -1,82 +1,94 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-.react-icons bi {
-    font-size: 1.7rem;
+    display: flex;
 }
 
 .notifications {
     position: fixed;
-    top: 2.5%;
-    right: 3.5%;
-    font-size: 200%
+    top: .5em;
+    right: 1em;
+    font-size: 200%;
+    color: white;
 }
 
-.sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
+.notifications:hover {
+    filter: drop-shadow(0px 0px 5px #fff);
+  }
+  
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 10%;
+    background: #202020;
+    height: 100vh;
+}
+
+.logo {
+    display: flex;
+    text-align: center;
+    flex-basis: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-menu {
+    display: flex;
+    flex-basis: 70%;
+    align-items: stretch;
+    white-space: nowrap;
+    justify-items: stretch;
+    padding: 0;
+}
+
+.side-menu ul {
+    padding: 0;
+}
+
+.socials {
+    display: flex;
+    flex-basis: 10%;
+    font-size: 2em;
+    text-align: center;
+    flex-direction: row;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.socials ul {
+    padding: 0;
+}
+
+.socials li {
+    display: inline;
+}
+
+.socials li:hover {
+    filter: drop-shadow(0px 0px 5px #fff);
+}
+
+.side-menu ul li {
+    padding: 1em;
 }
 
 .icon {
-    font-size: 175%;
+    font-size: 2em;
+    align-items: baseline;
 }
 
 .text {
-    font-size: 150%;
-    padding-left: 5%;
-    margin-bottom: 10%;
-}
-
-.sidebar ul {
-    list-style-type: none;
-}
-
-.sidebar li {
-    position: relative;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    transition: all 0.3s ease;
+    font-size: 1.3em;
+    padding-left: 1em;
     text-align: left;
-    left: 0;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 90%;
+    height: 100vh;
+    background: #242424;
+}
+
+.dashboard-content {
+    color: #fff;
 }
