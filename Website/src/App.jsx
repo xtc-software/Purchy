@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { Route, Routes } from "react-router-dom"
 import Home from "./pages/home"
 import Dashboard from "./pages/dashboard"
+import Authentication from "./pages/auth"
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/dashboard" element={<Dashboard />} />
+                <Route path="/auth/discord" element={<Authentication />} />
             </Routes>
         </>
   )
