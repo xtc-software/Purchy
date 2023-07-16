@@ -2,6 +2,8 @@ import { BiBell } from "react-icons/bi"
 import { useState } from 'react'
 import Navbar from "./components/Navbar"
 import './App.css'
+import Home from "./pages/Home"
+import Notifications from "./components/NotificationMenu"
 
 function App() {
     
@@ -13,13 +15,12 @@ function App() {
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <title>Dashboard | Purchy</title>
         </head>
-        <Navbar />
-        <div className="dashboard-container">
-            <div className="notifications"><BiBell /></div>
+        <body>
+            <Navbar />
             <div className="dashboard-content">
-                hi
+                <Home />
             </div>
-        </div>
+        </body>
     </>
   )
 }

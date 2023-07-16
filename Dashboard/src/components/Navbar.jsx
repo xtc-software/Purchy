@@ -1,6 +1,7 @@
 import { BiHomeAlt2, BiEnvelope, BiReceipt, BiPackage, BiUserCircle, BiCreditCard, BiLogoDiscord, BiLogoTwitter } from "react-icons/bi"
 
 export default function() {
+    const {openCollapsible, setOpenCollapsible} = useState(false);
     return (
         <>
             <div className="sidebar-container">

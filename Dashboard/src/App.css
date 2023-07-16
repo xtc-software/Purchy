@@ -92,3 +92,10 @@
 .dashboard-content {
     color: #fff;
 }
+
+.welcome-msg {
+    height: 20%;
+    width: 100%;
+    background-color: #f0f0f0;
+    
+}
