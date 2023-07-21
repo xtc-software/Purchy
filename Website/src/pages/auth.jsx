@@ -17,6 +17,7 @@ export default function() {
     return (
         <>
             <h1>Authenticating</h1>
+            <p>You should be redirected to your dashboard automatically once we were able to verify your request.</p>
         </>
     )
 }
