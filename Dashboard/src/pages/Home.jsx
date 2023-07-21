@@ -1,4 +1,5 @@
-import { NotificationMenu } from "../components/NotificationMenu"
+import NotificationMenu from "../components/NotificationMenu"
+
 export default function() {
     return (
         <>
