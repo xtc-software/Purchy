@@ -1,0 +1,25 @@
+
+.newsletter-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.newsletter-frame {
+    display: flex;
+    width: 50vw;
+    align-items: center;
+}
+
+.newsletter-container .left {
+    display: flex;
+    width: 50vw;
+    align-items: center;
+}
+
+.newsletter-container .right {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+}
