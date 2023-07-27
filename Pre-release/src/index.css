@@ -139,6 +139,10 @@ button:focus-visible {
     text-align:center
 }
 
+.modal .agree-btn {
+    width: 5vw;
+}
+
 .modal .close-modal {
-    width:5vw
+    width:5vw;
 }

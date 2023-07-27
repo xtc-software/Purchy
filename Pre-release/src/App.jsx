@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Modal from "./components/Modal"
+
 export default function() {
     const [openModal, setOpenModal] = useState(false)
     return (
@@ -13,11 +14,10 @@ export default function() {
                 </div>
                 <div className="vl"></div>
                 <div className="right">
-                    <input id ="input" type="text" size="50" minLength={1} maxLength={100} placeholder="Enter your email" />
-                    <button type="button" onClick={() => setOpenModal(true)}>Subscribe!</button>
+                    <button type="button" onClick={() => setOpenModal(true)}>Subscribe with Discord!</button>
                 </div>
                 </div>
-                <Modal header="Error" description="This functionality has not been set up yet. Please check back later!" open={ openModal } onClose={ () => setOpenModal(false) } />
+                <Modal header="Are you sure?" description="By clicking accept you agree to be added to our mailing list using the email attached to your Discord account." open={ openModal } onClose={ () => setOpenModal(false) } />
             </div>
         </>
     )
