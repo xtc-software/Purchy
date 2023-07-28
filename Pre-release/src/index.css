@@ -139,10 +139,24 @@ button:focus-visible {
     text-align:center
 }
 
+.modal .buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    text-align: center;
+}
+
 .modal .agree-btn {
-    width: 5vw;
+    width: 6.5vw;
+    margin-right: 1vw;
+    text-align: center;
 }
 
 .modal .close-modal {
-    width:5vw;
+    width: 6.5vw;
+    margin-left: 1vw;
+    text-align: center;
 }
