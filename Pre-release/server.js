@@ -28,7 +28,7 @@ app.get('/register/newsletter', function(req, res) {
     let emailAddress = req.query.email;
     console.log(ipAddress);
     runInsert(`insert into signups select '${ipAddress}', '${emailAddress}'`);
-    res.send(`'${ipAddress}', '${emailAddress}' has been logged to database.`);
+    res.redirect(`https://purchy.io/`);
     
 });
 
@@ -60,7 +60,8 @@ app.get('/auth/discord', async function(req, res) {
         const { data: userData } = await axios.get(`${apiEndpoint}/users/@me`, {
           headers: { Authorization: `Bearer ${accessToken}` },
         });
-        res.send(userData);
+        userEmail = userData.email
+        res.redirect(`http://localhost:3000/register/newsletter?email=${userEmail}`)
     }
     catch (error) {
             console.error('Error exchanging authorization code for access token:', error);
